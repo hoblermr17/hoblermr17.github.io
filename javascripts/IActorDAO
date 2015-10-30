@@ -1,0 +1,37 @@
+package model;
+
+import java.util.List;
+
+/**
+ * @author Matt Hobler
+ * @version 20151009
+ *
+ */
+public interface IActorDAO {
+
+	void createRecord(Actor actor);
+
+	Actor retrieveRecordById(int id);
+
+	List<Actor> retrieveAllRecords();
+
+	void updateRecord(Actor updatedActor);
+
+	void deleteRecord(int id);
+
+	void deleteRecord(Actor actor);
+
+	String toString();
+
+	void createRecord1(Actor actor);
+
+	Actor retrieveRecordById1(int id);
+
+	void updateRecord1(Actor updatedActor);
+
+	void deleteRecord1(Actor actor);
+	
+	
+	
+
+}
