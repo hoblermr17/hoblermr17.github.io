@@ -7,7 +7,7 @@ import model.IEmployeeDAO;
 import model.datastore.mysql.EmployeeDAO;
 
 /**
- * @author John Phillips
+ * @author Matt Hobler
  * @version 20151015
  * 
  */
